@@ -6,4 +6,4 @@ using
 *bootstrap
 *javascript
 
-live link : https://mrana565.github.io/it-solution-company/
+live link :https://mrana565.github.io/it-solution-company-responsive-/
