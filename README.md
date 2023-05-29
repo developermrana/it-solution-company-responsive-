@@ -1,6 +1,6 @@
 # it-solution-company
 
-usimg 
+using 
 *html
 *css
 *bootstrap
