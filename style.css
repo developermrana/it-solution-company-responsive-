@@ -1,0 +1,218 @@
+/*-- google font link --*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap');
+
+/*-- common style code start --*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.text-brand{
+    color: #ff6058;
+}
+.bg-brand{
+    background: #ff6058;
+}
+.hero-btn{
+    color: #fff;
+    display: inline-block;
+    background: #ff6058;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 20px 20px 0 0;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.hero-btn:hover{
+    background: #d45953;
+    color: #fff;
+}
+/*-- common style code end --*/
+
+/* header section start */
+header{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/images/baner.jpg);
+    background-position: center;
+    background-size: cover;    
+    height: 100vh;
+    max-height: 950px;
+}
+header .navbar-nav .nav-link.active{
+    color: #ff6058;
+}
+header .navbar-nav .nav-item{
+    padding: 8px;
+}
+header .navbar-nav .nav-link{
+    color: #fff;
+    transition: .4s;
+}
+header a.nav-link:hover{
+    color: #ff6058;
+}
+header nav .contact-btn a{
+    color: #fff;
+    background: #ff6058;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: .4s;
+}
+header nav .contact-btn a:hover{
+    background: #d45953;
+}
+header button i{
+    color: #fff;
+}
+@media (max-width:991px){
+    .navbar{
+        height: 55px;
+    }
+    .navbar-nav{
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .9));
+        width: 200px;
+        text-align: center;
+    }
+    .navbar-toggler{
+        font-size: 25px;
+        background: #ff6058;
+        padding: 5px 10px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+}
+/* navbar end */
+header .baner-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* header section end */
+
+/* choose us section start */
+.choose-us-section{
+    background: #ededed;
+}
+.choose-gllary .choose-img{
+    position: relative;
+}
+.choose-img p{
+    display: inline-block;
+    width: 80%;
+    background: #000;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    transition: .5s;
+}
+.choose-img p:hover{
+    background: #ff6058;
+}
+/* choose us section end */
+
+/* service section start */
+.service-inner .service-item{
+    background: #ededed;
+    transition: .3s;
+}
+.service-item .service-icon{
+    background: #ff6058;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+}
+.service-item .service-icon i{
+    margin-top:25px;
+}
+.service-inner .service-item:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5), -3px -3px 10px rgba(0, 0, 0, .5);
+    transform: translatey(-10px);
+}
+/* service section end */
+
+/* testimonial section start */
+.testimonial-section{
+    background: url(assets/images/testimonial.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+.testimonial-section::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-image: linear-gradient(110deg, rgba(0, 0, 0, .6) 58%, rgba(255, 255, 255, .0) 42%);
+    z-index: 1;
+}
+.testimonial-inner{
+    z-index: 5;
+}
+.client-review{
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
+}
+/* testimonial section end */
+
+/* our team section start */
+.team-member{
+    transition: .4s; 
+}
+.team-member:hover{
+    background: #ededed;
+}
+.member-profile a{
+    color: #000;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+    transition: .4s;
+}
+.member-profile a:hover{
+    color: #ff6058;
+}
+/* our team section end */
+
+/* footer section start */
+footer{
+    background: #232323;
+}
+footer .social-media-icon a{
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+    transition: .4s;
+}
+footer .social-media-icon a:hover{
+    color: #ff6058;
+}
+footer .policy ul li{
+    color: #fff;
+    display: inline-block;
+    padding: 8px;
+}
+/* footer section end */
