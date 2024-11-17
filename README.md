@@ -1,9 +1,9 @@
 # it-solution-company
 
 ### using 
-*html
-*css
-*bootstrap
-*javascript
+* HTML
+* CSS
+* bootstrap
+* Javascript
 
 ### live link : [https://developermrana.github.io/it-solution-company-responsive-/](https://developermrana.github.io/it-solution-company-responsive-/)
